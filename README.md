@@ -29,9 +29,9 @@ Damos preferência a soluções utilizando REGEX e string slicing. Além disso n
 ## Início
 
 1. Clone este repositório em seu ambiente de desenvolvimento local através do comando `git clone https://bitbucket.org/maitha-tech/ndea-python/src ndea-python`
-2. Crie um repositório público em sua conta do Github com o nome `ndea-python`
-3. Via terminal, acesse a pasta criada `cd ndea-python`
-4. Altere a URL de origin para o repositório que você acabou de criar utilizando o comando `git remote set-url origin <<INSIRA AQUI A URL DO REPOSITÓRIO QUE ACABOU DE CRIAR>>`
+2. Via terminal, acesse a pasta criada `cd ndea-python`
+3. Crie um repositório público em sua conta do Github com o nome `ndea-python`
+4. Altere a URL origin para o repositório que você acabou de criar utilizando o comando `git remote set-url origin <<INSIRA AQUI A URL DO REPOSITÓRIO QUE ACABOU DE CRIAR>>`
 5. Agora que alterou a url, realize a sincronização dos arquivos com o comando `git push -u origin main`
 
 ## Instruções de Entrega
