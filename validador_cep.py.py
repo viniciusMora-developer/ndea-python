@@ -1,10 +1,12 @@
 import re
+import sys
 
 vetor = []
 cep = int(input('Digite seu CEP: '))
 
 if (cep >= 999999) or (cep < 100000):
     print("CEP INVÁLIDO!")
+    sys.exit()
 
 else:
     cep = str(cep)
@@ -14,13 +16,18 @@ else:
 
 if vetor[0] == vetor[1]:
     print("CEP INVÁLIDO!")
+    sys.exit()
 elif vetor[0] == vetor[2]:
     print("CEP INVÁLIDO!")
+    sys.exit()
 elif vetor[2] == vetor[4]:
     print("CEP INVÁLIDO!")
+    sys.exit()
 elif vetor[1] == vetor[3]:
     print("CEP INVÁLIDO!")
+    sys.exit()
 elif vetor[3] == vetor[5]:
     print("CEP INVÁLIDO!")
+    sys.exit()
 else:
     print("CEP VALIDO!")
