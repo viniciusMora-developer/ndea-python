@@ -14,10 +14,7 @@ else:
     verif = p1.findall(cep)
     vetor = verif
 
-if vetor[0] == vetor[1]:
-    print("CEP INVÁLIDO!")
-    sys.exit()
-elif vetor[0] == vetor[2]:
+if vetor[0] == vetor[2]:
     print("CEP INVÁLIDO!")
     sys.exit()
 elif vetor[2] == vetor[4]:
@@ -31,3 +28,10 @@ elif vetor[3] == vetor[5]:
     sys.exit()
 else:
     print("CEP VALIDO!")
+
+
+
+
+
+
+
